@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ body {
     height: 5rem;
     font-family: 'Poppins', sans-serif;
     width: 80%;
-    gap: 60px;
+    gap: 40px;
     margin: 10px auto;
 }
 .navbar>a {
@@ -34,6 +34,7 @@ body {
     color: black;
     font-size: 17px;
     font-weight: 300;
+    letter-spacing: 1px;
 }
 .navbar>a:nth-child(2) {
     border-top: 2px solid black;
