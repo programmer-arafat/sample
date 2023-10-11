@@ -249,4 +249,11 @@ footer>hr {
         color: white;
         background-color: black;
     }
+    .coverage {
+        display: block;
+        margin: 0 auto;
+    }
+    .airports {
+        margin: 20px 5vw;
+    }
 }
