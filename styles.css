@@ -16,7 +16,7 @@ body {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1rem;
     cursor: pointer;
     word-wrap: unset;
 }
@@ -203,6 +203,9 @@ footer>hr {
 @media screen and (max-width:1024px) {
     .booking {
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .navbar {
         display: none;
