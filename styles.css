@@ -253,7 +253,20 @@ footer>hr {
         display: block;
         margin: 0 auto;
     }
+    .heading {
+        font-size: 25px;
+        text-align: center;
+    }
     .airports {
         margin: 20px 5vw;
+        width: 100%;
     }
+    /* .content-message>div {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .airports>div:first-child {
+        font-size: 1rem;
+        font-weight: 300;
+    } */
 }
