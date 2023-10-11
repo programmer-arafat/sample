@@ -260,6 +260,7 @@ footer>hr {
     .airports {
         margin: 20px 5vw;
         width: 100%;
+        padding: 10px;
     }
     /* .content-message>div {
         font-size: 15px;
