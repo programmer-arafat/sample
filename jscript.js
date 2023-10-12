@@ -12,7 +12,7 @@ hamburger.addEventListener('click', ()=>{
 })
 const closeBtn = document.querySelector(".close-btn");
 closeBtn.addEventListener('click', ()=>{
-    document.querySelector('.booking').style.display = "none";
+    document.querySelector('.booking').style.display = "flex";
     document.querySelector(".wrapper").style.width = "100vw";
     const openmenu = document.querySelector(".hamburger-menu");
     openmenu.classList.remove("hamburger-menu-visible");
