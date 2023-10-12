@@ -7,6 +7,7 @@ hamburger.addEventListener('click', ()=>{
     // openmenu.classList.add("hamburger-menu-visible");
     document.querySelector('.booking').style.display = "none";
     document.querySelector(".wrapper").style.width = "0px";
+    document.querySelector(".wrapper").style.display = "none";
     const openmenu = document.querySelector(".hamburger-menu");
     openmenu.classList.add("hamburger-menu-visible");
 })
@@ -14,6 +15,7 @@ const closeBtn = document.querySelector(".close-btn");
 closeBtn.addEventListener('click', ()=>{
     document.querySelector('.booking').style.display = "flex";
     document.querySelector(".wrapper").style.width = "100vw";
+    document.querySelector(".wrapper").style.display = "block";
     const openmenu = document.querySelector(".hamburger-menu");
     openmenu.classList.remove("hamburger-menu-visible");
 })
