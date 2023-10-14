@@ -1,5 +1,6 @@
 const hamburger = document.getElementById("hamburger");
 hamburger.addEventListener('click', ()=>{
+    document.querySelector("#footer").style.display = "none";
     document.querySelector('.booking').style.display = "none";
     document.querySelector(".wrapper").style.display = "none";
     const openmenu = document.querySelector(".hamburger-menu");
@@ -7,6 +8,7 @@ hamburger.addEventListener('click', ()=>{
 })
 const closeBtn = document.querySelector(".close-btn");
 closeBtn.addEventListener('click', ()=>{
+    document.querySelector("#footer").style.display = "block";
     document.querySelector('.booking').style.display = "flex";
     document.querySelector(".wrapper").style.display = "block";
     const openmenu = document.querySelector(".hamburger-menu");
