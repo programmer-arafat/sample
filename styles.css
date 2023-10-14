@@ -104,20 +104,22 @@ body {
     color: white;
 }
 .hamburger-menu>a:hover {
-    color: rgb(138, 185, 206);
+    color: #ADD8E6;
 }
 .hamburger-menu>hr {
     width: 90vw;
     color: #b3b3b3;
     opacity: 0.2;
+    margin-top: -2px;
 }
 .wrapper {
     display: block;
     transition: 0.5s ease-in-out;
+    position: relative;
 }
 .content-message {
     margin: 30px auto;
-    background-color: rgb(138, 185, 206);
+    background-color: #ADD8E6;
     width: 80%;
     height: 250px;
     display: flex;
@@ -172,13 +174,13 @@ body {
     font-family: 'Poppins', sans-serif; 
 }
 .airports>p>a {
-    color: rgb(138, 185, 206);
+    color: #ADD8E6;
 }
 .book-btn {
     width: max-content;
     height: 50px;
     padding: 5px;
-    background-color: rgb(138, 185, 206);
+    background-color: #ADD8E6;
     border-radius: 5px;
     border: none;
     font-weight: 600;
@@ -190,7 +192,7 @@ body {
     width: max-content;
     height: 50px;
     padding: 5px;
-    background-color: rgb(138, 185, 206);
+    background-color: #ADD8E6;
     border-radius: 5px;
     border: none;
     font-weight: 600;
@@ -230,7 +232,7 @@ footer>p {
     font-family: 'Poppins', sans-serif;
 }
 .flex-links>a:hover {
-    color: rgb(138, 185, 206);
+    color: #ADD8E6;
 }
 footer>hr {
     width: 50px;
@@ -265,14 +267,14 @@ footer>hr {
         display: block;
     }
     .hamburger:hover {
-        color: rgb(138, 185, 206);
+        color: #ADD8E6;
     }
     .close-btn {
         font-size: 20px;
         cursor: pointer;
     }
     .close-btn:hover {
-        color: rgb(138, 185, 206);
+        color: #ADD8E6;
     }
     .wrapper {
         width: 100%;

@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+.home-logo {
+    display: flex;
+    margin: 40px auto 20px auto;
+    width: 80vw;
+    height: 40vw;
+    overflow: hidden;
+}
+
+.box-message1 {
+    height: 40vw;
+    width: 40%;
+    background-color: #ADD8E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-car1 {
+    width: 60%;
+    height: 40vw;
+    overflow: hidden;
+    background-image: url("./images/home-image1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.btn-message1 {
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #f5f5f5;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.description {
+    width: 100vw;
+    height: max-content;
+    background-color: #ADD8E6;
+}
+.description>p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.app-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+    margin-bottom: 50px;
+}
+.heading>div:first-child {
+    font-size: 35px;
+    text-align: center;
+}
+.underline-home {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+}
+.fleet1-car1 {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.fleet1-img1 {
+    width: 575px;
+    height: 575px;
+    background-image: url("./images/maybach-s600.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+.fleet1-msg1>p:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.fleet1-msg1>p:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.fleet1-car2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.fleet1-img2 {
+    width: 575px;
+    height: 575px;
+    background-image: url("./images/home-image1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+.fleet1-msg2>p:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.fleet1-msg2>p:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.fleet1-img3 {
+    width: 575px;
+    height: 575px;
+    background-image: url("./images/bentley-bentayhga.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+.description2 {
+    width: 100vw;
+    height: max-content;
+    background-color: black;
+    color: white;
+}
+.description2>.heading>div:nth-child(2){
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
+.fleet2-grid {
+    width: 80vw;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fleet-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.fleet-flex-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+    padding: 0 25px;
+}
+.fleet-flex-item-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: -50px;
+}
+.fleet2-flex-img1 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/fleet2-flex-img1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet-flex-item>div:nth-child(3) {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: -50px;
+}
+.fleet2-flex-img2 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/fleet2-flex-img2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img3 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/fleet2-flex-img3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img4 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/fleet2-flex-img4.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img5 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/fleet2-flex-img5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img6 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/fleet2-flex-img6.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.services {
+    padding-bottom: 50px;
+}
+.service-flex-item-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: -50px;
+}
+.service-flex-img1 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service-flex-img2 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service-flex-img3 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -35px;
+}
+.service-flex-img4 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img4.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service-flex-img5 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service-flex-img6 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img6.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service-flex-img7 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img7.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service-flex-img8 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img8.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service-flex-img9 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img9.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service-flex-img10 {
+    width: 380px;
+    height: 250px;
+    overflow: hidden;
+    margin: 60px 0;
+}
+.service-flex-img11 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img11.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service-flex-img12 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./images/service-flex-img12.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.reasons {
+    width: 80vw;
+    margin: 10px auto;
+    overflow: hidden;
+    
+}
+.reasons-flex {
+    display: flex;
+    gap: 5vw;
+    padding-top: 40px;
+}
+.reasons-para-wrapper>.book-btn {
+    margin-left: 25%;
+}
+.reasons-para>h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.reasons-para>p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #dad5d5;
+    font-size: 18px;
+}
+.underline-reasons {
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
+.about-contact {
+    width: 80vw;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+.about-block1 {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.about-block-para>h3, .about-block-para>p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.about-block-para>.book-btn {
+    margin-left: 25%;
+}
+.faqs {
+    padding-left: 35%
+}
+.faqs>h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.question-answer {
+    margin-top: 20px;
+}
+.ques {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.contact-us {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-block> {
+   width: 40vw;
+   margin: 30px auto;
+   padding-bottom: 30px;
+}
+.contact-block h3 {
+    font-size: 20px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form p {
+    font-size: 22px;
+}
+.contact-form>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.contact-form>form>input {
+    width: 150%;
+    height: 2rem;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form>form textarea {
+    width: 150%;
+    height: 6rem;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form>form>div>input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    box-shadow: 1px 1px 1px 1px #bbb;
+}
+.whatsapp {
+    width: 300px;
+    height: 3rem;
+    background-color: #36454F;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.company-info {
+    margin: 20px auto;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+.subscribe {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.subscribe>h1 {
+    font-size: 30px;
+}
+.subscribe>input {
+    width: 40%;
+    height: 2rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+.subscribe>button {
+    background-color: #ADD8E6;
+    padding: 20px;
+    height: 3.5rem;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.rolls-royce-bg {
+    background-image: url("./images/rolls-royce-background.avif");
+    width: 100vw;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    filter: blur(8px);
+    padding-bottom: 20px;
+}
+.bg-content {
+    text-align: center;
+    position: absolute;
+    transform: translate(60%, -120%);
+    height: max-content;
+}
+.bg-content>h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    text-align: center;
+}
+.bg-content>nav {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px auto;
+
+}
+.bg-content>nav>a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.bg-content>nav>a:hover {
+    color: #ADD8E6;
+}
+.nav-active {
+    font-weight: bold;
+}
+.small-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.small-desc-item {
+    width: 225px;
+    height: 275px;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.small-desc-item:hover {
+    box-shadow: 1px 1px 1px 2px #bbb;
+}
+.small-desc-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.small-desc-para>div:first-child, .small-desc-para>div:last-child{
+    color: #dad5d5;
+}
+.small-desc-para>div:nth-child(2) {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.follow>.heading {
+    margin-top: 80px;
+}
+.follow>.social-icons {
+    margin-top: 40px;
+}
+.follow>.heading>div:first-child {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+.authorized-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.safety {
+    margin: 10px auto;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.safety-items {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    font-family: 'Poppins',sans-serif;
+}
+
+@media screen and (max-width:1400px) {
+    .fleet-flex-item>div:nth-child(2) {
+        width: 300px;
+        height: 300px;
+    }
+    .fleet-flex {
+        justify-content: center;
+    }
+    .service-flex-img10 {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .app-links {
+        flex-direction: column;
+    }
+    .home-logo {
+        width: 80vw;
+        flex-direction: column;
+        height: max-content;
+    }
+    .box-message1 {
+        width: 80vw;
+        height: max-content;
+    }
+    .btn-message1 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .image-car1 {
+        width: 80vw;
+    }
+    .fleet1-car1 {
+        flex-direction: column;
+    }
+    .fleet1-car2 {
+        flex-direction: column;
+    }
+    .fleet1-img1, .fleet1-img2, .fleet1-img3 {
+        width: 100vw;
+    }
+    .fleet2-grid {
+        grid-template-columns: 1fr;
+    }
+    .fleet-flex-item>div:nth-child(2) {
+        width: 300px;
+        height: 300px;
+    }
+    .fleet-flex {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .fleet-flex-item {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .service-flex-img10 {
+        width: 300px;
+        height: 200px;
+    }
+    .reasons-flex {
+        flex-direction: column;
+    }
+    .reasons-para-wrapper>.book-btn {
+        padding-left: 10%;
+    }
+    .about-block1 {
+        flex-direction: column;
+    }
+    .contact-form>form input {
+        width: 70vw;
+    }
+    .contact-form>form textarea {
+        width: 70vw;
+    }
+    .contact-form>form>div {
+        text-align: center;
+    }
+    .contact-form>form>div>input[type="checkbox"] {
+        width: 14px;
+        height: 14px;
+    }
+    .rolls-royce-bg {
+        height: 1000px;
+    }
+    .bg-content {
+        display: flex;
+        flex-direction: column;
+        transform: translate(30%, -140%);
+    }
+    .bg-content>h1 {
+        font-size: 1rem;
+    }
+    .bg-content>nav {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    .small-desc {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .authorized-images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .safety {
+        grid-template-columns: 1fr;
+    }
+    .about-block-para >.book-btn {
+        margin-left: 10%;
+    }
+    .reasons-para-wrapper>.book-btn {
+        margin-left: 10%;
+    }
+}
