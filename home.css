@@ -669,7 +669,7 @@ html, body {
     }
     .fleet2-grid {
         grid-template-columns: 1fr;
-        padding-right: 2rem;
+        padding-right: 3rem;
     }
     .fleet-flex-item>div:nth-child(2) {
         width: 300px;
@@ -683,6 +683,7 @@ html, body {
         padding: 0 auto;
     }
     .fleet-flex-item {
+        width: 80vw;
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
