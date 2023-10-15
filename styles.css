@@ -69,6 +69,7 @@ body {
     transform: translate(135%, 55%);
     overflow-y: scroll;
     box-shadow: 2px 2px 2px 4px #bbb;
+    z-index: 100;
 }
 .inactive {
     display: none;
