@@ -33,6 +33,7 @@ html, body {
     width: 80%;
     gap: 40px;
     margin: 10px auto;
+    clear: right;
 }
 .navbar>a {
     text-decoration: none;
@@ -239,6 +240,26 @@ footer>p {
 footer>hr {
     width: 50px;
     color: #bbb;
+}
+
+.login-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    display: block;
+    margin-right: 10vw;
+}.login-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    display: block;
+    margin-right: 10vw;
+}.login-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    display: block;
+    margin-right: 10vw;
 }
 @media screen and (max-width:1480px) and (min-width:1024px)  {
     .navbar {

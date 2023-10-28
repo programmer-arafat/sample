@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background: url("./login-signup-img/background-login.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: radial-gradient(circle, #fff, #ADD8E6);
+}
+.login-container {
+    display: block;
+    margin: 50px auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 0.8;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.signup-container {
+    display: block;
+    margin: 50px auto;
+    width: 600px;
+    height: max-content;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 0.8;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.login-container>h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 20px 20px 40px;
+}
+.login-container>p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+}
+.login-container>p>a {
+    color: #ADD8E6;
+    margin-left: 10px;
+}
+.signup-container>h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 20px 20px 40px;
+}
+.signup-container>p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+}
+.signup-container>p>a {
+    color: #ADD8E6;
+    margin-left: 10px;
+}
+form {
+    padding: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+form>label {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+form>input {
+    width: 90%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
+form>input:focus {
+    outline: none;
+    border-bottom: 3px solid #ADD8E6;
+    padding-bottom: 0;
+}
+.login-btn {
+    display: block;
+    width: 300px;
+    height: 3rem;
+    margin-top: 30px;
+    background-color: #ADD8E6;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+@media screen and (max-width:1020px)  {
+    .login-container {
+        width: 80%;
+        height: 80%;
+        padding-bottom: 1rem;
+    }
+    .signup-container {
+        width: 80%;
+        height: 80%;
+        padding-bottom: 1rem;
+    }
+    .login-btn {
+        width: 40%;
+    }
+}
