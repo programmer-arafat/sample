@@ -43,7 +43,7 @@ html, body {
     letter-spacing: 1px;
     position: relative;
 }
-.navbar>a:nth-child(2) {
+.active-link {
     border-top: 2px solid black;
     line-height: 3;
     font-weight: 600;
@@ -319,7 +319,7 @@ footer>hr {
     }
     .airports {
         margin: 20px 5vw;
-        width: 100%;
+        width: 90%;
         padding: 10px;
     }
     .login-box {
