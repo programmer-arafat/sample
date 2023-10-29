@@ -245,21 +245,9 @@ footer>hr {
 .login-box {
     margin-top: 20px;
     margin-bottom: 20px;
-    float: right;
-    display: block;
-    margin-right: 10vw;
-}.login-box {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    float: right;
-    display: block;
-    margin-right: 10vw;
-}.login-box {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    float: right;
-    display: block;
-    margin-right: 10vw;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
 @media screen and (max-width:1480px) and (min-width:1024px)  {
     .navbar {
@@ -333,6 +321,12 @@ footer>hr {
         margin: 20px 5vw;
         width: 100%;
         padding: 10px;
+    }
+    .login-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
     /* .content-message>div {
         font-size: 15px;
