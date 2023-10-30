@@ -792,4 +792,7 @@ tr>th:first-child {
         padding-left: 0;
         margin: 0 auto;
     }
+    .table-container {
+        display: none;
+    }
 }
