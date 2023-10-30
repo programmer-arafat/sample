@@ -16,7 +16,7 @@ html, body {
 .box-message1 {
     height: 40vw;
     width: 40%;
-    background-color: #ADD8E6;
+    background-color: #E27D60;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +52,7 @@ html, body {
 .description {
     width: 100vw;
     height: max-content;
-    background-color: #ADD8E6;
+    background-color: #E27D60;
 }
 .description>p {
     text-align: center;
@@ -505,7 +505,7 @@ html, body {
     padding: 10px;
 }
 .subscribe>button {
-    background-color: #ADD8E6;
+    background-color: #E27D60;
     padding: 20px;
     height: 3.5rem;
     border: none;

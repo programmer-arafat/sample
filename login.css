@@ -7,7 +7,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
-    background: radial-gradient(circle, #fff, #ADD8E6);
+    background: radial-gradient(circle, #fff, #E27D60);
 }
 .login-container {
     display: block;
@@ -84,7 +84,7 @@ form>input {
 }
 form>input:focus {
     outline: none;
-    border-bottom: 3px solid #ADD8E6;
+    border-bottom: 3px solid #E27D60;
     padding-bottom: 0;
 }
 .login-btn {
@@ -92,7 +92,7 @@ form>input:focus {
     width: 300px;
     height: 3rem;
     margin-top: 30px;
-    background-color: #ADD8E6;
+    background-color: #E27D60;
     color: white;
     font-size: 20px;
     border: none;
