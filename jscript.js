@@ -57,3 +57,4 @@ const signBtn = document.getElementById('signup-bt');
 signBtn.addEventListener('click', ()=>{
     localStorage.setItem('linkKey', JSON.stringify(""));
 })
+
