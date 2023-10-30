@@ -7,16 +7,21 @@ html, body {
 }
 .home-logo {
     display: flex;
+    flex-direction: row-reverse;
     margin: 40px auto 20px auto;
     width: 80vw;
     height: 40vw;
     overflow: hidden;
+    transition: 0.5s ease;
+}
+.home-logo:hover {
+    transform: translateZ(12px);
 }
 
 .box-message1 {
     height: 40vw;
     width: 40%;
-    background-color: #E27D60;
+    background-color: #254e58;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +57,7 @@ html, body {
 .description {
     width: 100vw;
     height: max-content;
-    background-color: #E27D60;
+    background-color: #254e58;
 }
 .description>p {
     text-align: center;
@@ -505,7 +510,7 @@ html, body {
     padding: 10px;
 }
 .subscribe>button {
-    background-color: #E27D60;
+    background-color: #254e58;
     padding: 20px;
     height: 3.5rem;
     border: none;

@@ -7,7 +7,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
-    background: radial-gradient(circle, #fff, #E27D60);
+    background: radial-gradient(circle, #fff, #254e58);
 }
 .login-container {
     display: block;
@@ -46,7 +46,7 @@ html, body {
     margin-left: 40px;
 }
 .login-container>p>a {
-    color: #ADD8E6;
+    color: #254e58;
     margin-left: 10px;
 }
 .signup-container>h1 {
@@ -84,7 +84,7 @@ form>input {
 }
 form>input:focus {
     outline: none;
-    border-bottom: 3px solid #E27D60;
+    border-bottom: 3px solid #254e58;
     padding-bottom: 0;
 }
 .login-btn {
@@ -92,7 +92,7 @@ form>input:focus {
     width: 300px;
     height: 3rem;
     margin-top: 30px;
-    background-color: #E27D60;
+    background-color: #254e58;
     color: white;
     font-size: 20px;
     border: none;
