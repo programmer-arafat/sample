@@ -84,4 +84,11 @@
         width: 80vw;
         height: 10rem;
     }
+    .text-cars>h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .text-cars>p {
+        display: none;
+    }
 }
