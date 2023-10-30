@@ -1,0 +1,113 @@
+.fleet2-grid {
+    width: 80vw;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fleet-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.fleet-flex-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+    padding: 0 25px;
+}
+.fleet-flex-item-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: -50px;
+}
+
+.fleet-flex-item>div:nth-child(3) {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: -50px;
+}
+.fleet2-flex-img1 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./events-img/img1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img2 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./events-img/img2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img3 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./events-img/img3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img4 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./events-img/img4.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img5 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./events-img/img5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fleet2-flex-img6 {
+    width: 380px;
+    height: 400px;
+    background-image: url("./events-img/img6.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media screen and (max-width:1400px) {
+    .fleet-flex-item>div:nth-child(2) {
+        width: 300px;
+        height: 300px;
+    }
+    .fleet-flex {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .fleet2-grid {
+        grid-template-columns: 1fr;
+        padding-right: 3rem;
+    }
+    .fleet-flex-item>div:nth-child(2) {
+        width: 300px;
+        height: 300px;
+    }
+    .fleet-flex {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .fleet-flex-item {
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 0 auto;
+    }
+}
